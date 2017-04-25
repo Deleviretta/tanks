@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.4em;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+}
+
+main{
+    margin-right: auto;
+    margin-left: auto;
+    width:1000px;
+}
+
+body{
+    /* Background pattern from subtlepatterns.com */
+    background-image: url("img/dark_mosaic.png");
+    color: white;
+}
+
+header{
+    font-family: 'Economica', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+    cursor: pointer;
+    color: #c1cfcf;
+}
+
+nav{
+    margin-top: 20px;
+    background-color: #6e6778;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.option{
+    float:left;
+    padding: 10px;
+    min-width: 50px;
+    height: 25px;
+    font-size: 18px;
+    border-right: #ff5854 double 2px;
+}
+
+input[type=text],
+input[type=email], 
+input[type=password]{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 150px;
+    background-color: beige;
+}
+
+input[type=submit],
+input[type=button]{
+    padding: 15px;
+    margin-right: 50px;
+    width: 150px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.formularz{
+    margin-top: 10px;
+}
+
+table{
+    width:100%;
+    margin-top: 10px;
+    background-color: #33011A;
+    border-radius: 10px;
+}
+
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: #09717F;
+}
+

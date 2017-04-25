@@ -1,0 +1,14 @@
+(700, 20, 'Maybach HL 230 TRM P45');
+(900, 20, 'Maybach HL 234 TRM P45');
+(700, 20, 'Maybach HL 230 TRM P30');
+(300, 20, 'Maybach HL 116');
+(160, 20, 'Maybach HL 62 TRM');
+(840, 15, 'Porsche Deutz Typ 180/2');
+(340, 20, 'MT-5-1');
+(450, 20, 'M-17L 1400 r/min');
+(600, 15, 'V-5');
+(750, 15, 'V-2SN');
+(1200, 15, '2x V-2K-F');
+(700, 15, 'V-12P');
+(400, 15, 'Mitsubishi AL Type 4 Kuurei V-12');
+(570, 15, 'Mitsubishi 12HM20WT');

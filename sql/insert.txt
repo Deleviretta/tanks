@@ -1,0 +1,38 @@
+--INSERT FOR DZIALA
+
+INSERT INTO Dzialo(NazwaDziala, Kaliber, ZadawaneObrazenia, CzasPrzeladowania) VALUES('7,5 cm Kw.K. 42 L/70', '75mm', 135, 5);
+INSERT INTO Dzialo(NazwaDziala, Kaliber, ZadawaneObrazenia, CzasPrzeladowania) VALUES(' 8,8 cm Kw.K. 43 L/71', '88mm', 320, 10.2);
+INSERT INTO Dzialo(NazwaDziala, Kaliber, ZadawaneObrazenia, CzasPrzeladowania) VALUES('12,8 cm Kw.K. 44 L/55', '128mm', 490, 13.7);
+INSERT INTO Dzialo(NazwaDziala, Kaliber, ZadawaneObrazenia, CzasPrzeladowania) VALUES('15 cm Kw.K. L/38', '150mm', 750, 17.9);
+
+--INSERT FOR SILNIKI
+INSERT INTO Silnik(Moc, SzansaNaZapalenie, NazwaSilnika) VALUES('700 KM', '20%', 'Maybach HL 230 TRM P45');
+INSERT INTO Silnik(Moc, SzansaNaZapalenie, NazwaSilnika) VALUES('900 KM', '20%', 'Maybach HL 234 TRM P45');
+INSERT INTO Silnik(Moc, SzansaNaZapalenie, NazwaSilnika) VALUES('700 KM', '20%', 'Maybach HL 230 TRM P30');
+INSERT INTO Silnik(Moc, SzansaNaZapalenie, NazwaSilnika) VALUES('300 KM', '20%', 'Maybach HL 116');
+
+--INSERT FOR ZALOGANT
+INSERT INTO Zalogant(IDCzolgu, Imie, Nazwisko, Rola) VALUES(null, 'Wiktor', 'Mazurow', 'Dowodca');
+INSERT INTO Zalogant(IDCzolgu, Imie, Nazwisko, Rola) VALUES(null, 'Nikolaj', 'Wotjakow', 'Kierowca');
+INSERT INTO Zalogant(IDCzolgu, Imie, Nazwisko, Rola) VALUES(null, 'Timur', 'Czugunkin', 'Celowniczy');
+INSERT INTO Zalogant(IDCzolgu, Imie, Nazwisko, Rola) VALUES(null, 'Giennadij', 'Szyszkin', 'Ladowniczy');
+
+--INSERT FOR CZOLG
+INSERT INTO Czolg(IDSilnika, IDDziala, Tier, NazwaCzolgu, Pancerz, Szybkosc, Wytrzymalosc, ZasiegWidzenia, Waga, KosztDoswiadczenia, KosztKredyty) VALUES(200, 300, 'VIII', 'Tiger II', 150, '38 km/h', 1500, '380m', '68 t', 78000, 2450000);
+INSERT INTO Czolg(IDSilnika, IDDziala, Tier, NazwaCzolgu, Pancerz, Szybkosc, Wytrzymalosc, ZasiegWidzenia, Waga, KosztDoswiadczenia, KosztKredyty) VALUES(200, 300, 'VII', 'Tiger I', 100, '40 km/h', 1400, '370m', '55.5 t', 45050, 1390000);
+INSERT INTO Czolg(IDSilnika, IDDziala, Tier, NazwaCzolgu, Pancerz, Szybkosc, Wytrzymalosc, ZasiegWidzenia, Waga, KosztDoswiadczenia, KosztKredyty) VALUES(200, 300, 'X', 'Ob.140', 100, '55 km/h', 1900, '440m', '36.3 t', 206000, 6100000);
+INSERT INTO Czolg(IDSilnika, IDDziala, Tier, NazwaCzolgu, Pancerz, Szybkosc, Wytrzymalosc, ZasiegWidzenia, Waga, KosztDoswiadczenia, KosztKredyty) VALUES(200, 300, 'IX', 'E75', 160, '40 km/h', 1820, '390m', '85 t', 154000, 3480000);
+
+--INSERT FOR UZYTKOWNICY
+INSERT INTO UzytkownicyP(IDKlanu, Nick) VALUES(null, 'killerxx');
+INSERT INTO UzytkownicyP(IDKlanu, Nick) VALUES(null, 'tankman');
+INSERT INTO UzytkownicyP(IDKlanu, Nick) VALUES(null, 'zabojca777');
+INSERT INTO UzytkownicyP(IDKlanu, Nick) VALUES(null, 'czolgofil');
+INSERT INTO UzytkownicyP(IDKlanu, Nick) VALUES(null, 'krzys44');
+
+--INSERT FOR CZOLG
+INSERT INTO OsiagnieciaU(IDUzytkownika,IloscBitew, IloscObrazenZadanych, PrzyjeteObrazenia, ZniszczoneCzolgi, WyspotowaneCzolgi, DoswiadczenieZaBitwy, Zwyciestwa, Przegrane, Remisy) VALUES(600001,5439,4423143,3233888,5439,0,67548219,754,4685,0);
+INSERT INTO OsiagnieciaU(IDUzytkownika,IloscBitew, IloscObrazenZadanych, PrzyjeteObrazenia, ZniszczoneCzolgi, WyspotowaneCzolgi, DoswiadczenieZaBitwy, Zwyciestwa, Przegrane, Remisy) VALUES(600002,40005,3615522,123357,0,80010,200792095,5250,34755,0);
+INSERT INTO OsiagnieciaU(IDUzytkownika,IloscBitew, IloscObrazenZadanych, PrzyjeteObrazenia, ZniszczoneCzolgi, WyspotowaneCzolgi, DoswiadczenieZaBitwy, Zwyciestwa, Przegrane, Remisy) VALUES(600003,89502,1142763,1346680,0,0,117309754,15644,73858,0);
+INSERT INTO OsiagnieciaU(IDUzytkownika,IloscBitew, IloscObrazenZadanych, PrzyjeteObrazenia, ZniszczoneCzolgi, WyspotowaneCzolgi, DoswiadczenieZaBitwy, Zwyciestwa, Przegrane, Remisy) VALUES(600004,10928,4664922,1226465,0,21856,228146668,6563,4365,0);
+INSERT INTO OsiagnieciaU(IDUzytkownika,IloscBitew, IloscObrazenZadanych, PrzyjeteObrazenia, ZniszczoneCzolgi, WyspotowaneCzolgi, DoswiadczenieZaBitwy, Zwyciestwa, Przegrane, Remisy) VALUES(600005,9860,1819378,3801332,0,0,227379756,2941,6919,0);
